@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Introduction</title>
+        <meta charset="utf-8">
+        <style>
+            header {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                margin: 10px;
+            }
+            #logo {
+                display: grid;
+                grid-template-columns: 70px 1fr;
+            }
+            #logo img {
+                width: 50px;
+            }
+            #logo span {
+                font-size: 30px;
+                display: flex;
+                align-items: center;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0;
+            }
+            header nav {
+                display: inline;
+            }
+            header nav a {
+                padding: 10px;
+            }
+            #content {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            #article1 {
+                text-align: center;
+                background-color: gray;
+            }
+            #article1 ul {
+                padding: 0;
+            }
+            #article1 li {
+                display: inline;
+            }
+            #article1 li img {
+                width: 30px;
+            }
+            #id_photo {
+                width: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <img src="tiger.jpg">
+                <span>박종원</span>
+            </div>
+            <h1>자기소개</h1>
+            <nav>
+                <a href="">ABOUT ME</a>
+                <a href="">RESUME</a>
+                <a href="">PORTFOLIO</a>
+                <a href="">CONTACT</a>
+            </nav>
+        </header>
+        <div id="content">
+            <div id="article1">
+                <img src="face.jpg" id="id_photo">
+                <div>박종원</div>
+                <div>Park, Jong Won</div>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100008243142512" target="_blank"><img src="facebook.png"></a></li>
+                    <li><a href="https://www.instagram.com/jwp9633/" target="_blank"><img src="instagram.png"></a></li>
+                </ul>
+            </div>
+            <div id="article2">
+                <p>
+                    안녕하세요. 박종원입니다.
+                </p>
+                <p>
+                    서울대학교에서 지역시스템공학, 벤처경영학 전공하고 있습니다.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
